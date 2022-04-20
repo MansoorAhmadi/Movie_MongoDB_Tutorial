@@ -17,7 +17,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class S3Service implements FileService{
 
-    public static final String S3BUCKET_NAME = "movie-mongo-bucket";
+    private static final String S3BUCKET_NAME = "movie-mongo-bucket";
     //the IDE will complain about a constructor, that's why we added the @RequiredArgsConstructor
     private final AmazonS3Client awsS3Client;
 
