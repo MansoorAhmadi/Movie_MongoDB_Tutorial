@@ -31,7 +31,7 @@ Channel#1
 	Backend - It's a multi module project
 
 		*Movie_MongoDB_Tutorial		//main-project 
-		*backend				//backend module
+		*backend			//backend module
 		*frontend			//frontend module
 
 	1.1 - Movie_MongoDB_Toturial: we will initialise the main project using spring initialiser
@@ -44,8 +44,8 @@ Channel#1
 
 	1.2 - Dependencies: 
 		*spring web
-		*spring data
-		*lombok
+		*spring data			
+		*lombok				//automate the getter/setter/constructor @Data
 		*NoSQL-MongoDB
 
 	1.3 - Generate the project - start.spring.io
